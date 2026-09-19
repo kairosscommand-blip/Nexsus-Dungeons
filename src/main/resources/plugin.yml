@@ -1,0 +1,17 @@
+name: NexusDungeons
+version: 1.0.0
+main: com.nexuscraft.nexusdungeons.NexusDungeons
+api-version: '1.21'
+author: RealSociety
+softdepend: [NexusPulse]
+description: Huge, real, solid-walled underground maze dungeons -- winding corridors, dead ends, traps, treasure, prison cells, and a boss guarding the best loot at the farthest point. Carved gradually so it never freezes the server, and protected block-by-block so it can never be tunneled, blown, or bucketed through.
+
+commands:
+  dungeons:
+    description: Create and explore NexusDungeons' huge carved maze dungeons.
+    usage: /dungeons <create|list|info|party> -- admin: <remove|key|reload>
+
+permissions:
+  nexusdungeons.admin:
+    description: Create/remove dungeons, hand out keys, and reload NexusDungeons.
+    default: op
